@@ -1,0 +1,67 @@
+    /* Estilo geral da tabela */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        font-size: 16px;
+        text-align: left;
+    }
+
+    /* Cabeçalho da tabela */
+    thead tr {
+        background-color: #f4f4f4;
+        border-bottom: 2px solid #ccc;
+    }
+
+    thead th {
+        padding: 10px 15px;
+        font-weight: bold;
+    }
+
+    /* Linhas da tabela */
+    tbody tr {
+        border-bottom: 1px solid #ddd;
+    }
+
+    tbody tr:nth-child(even) {
+        background-color: #f9f9f9; /* Linhas pares com fundo alternado */
+    }
+
+    tbody tr:hover {
+        background-color: #f1f1f1; /* Destaca a linha ao passar o mouse */
+    }
+
+    tbody td {
+        padding: 10px 15px;
+    }
+
+    /* Botões */
+    button {
+        padding: 5px 10px;
+        font-size: 14px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    button[type="submit"] {
+        color: #fff;
+    }
+
+    button[type="submit"]:hover {
+        opacity: 0.9;
+    }
+
+    /* Estilos específicos para botões */
+    button[formmethod="post"] {
+        background-color: #007bff; /* Azul para o botão atualizar */
+    }
+
+    .btn-warning {
+        background-color: #ffc107; /* Amarelo para atualizar */
+    }
+
+    .btn-danger {
+        background-color: #dc3545; /* Vermelho para deletar */
+    }
+

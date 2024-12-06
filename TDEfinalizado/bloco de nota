@@ -1,0 +1,21 @@
+session_start();
+
+// Inicializar a sessão se não existir
+if (!isset($_SESSION['produto'])) {
+    $_SESSION['produto'] = [];
+}
+
+// Referência para o array na sessão
+$produto = &$_SESSION['produto'];
+
+. 
+. 
+
+$produto = [];
+
+$produto = [
+    ['id' => 1, 'nome' => 'Misto', 'preco' => 110.00, 'quantidade' => 100],
+    ['id' => 2, 'nome' => 'Meio Misto', 'preco' => 80.00, 'quantidade' => 50],
+    ['id' => 3, 'nome' => 'Coca Cola 350ml', 'preco' => 5.00, 'quantidade' => 100],
+    ['id' => 4, 'nome' => 'Porção de Batata', 'preco' => 15.00, 'quantidade' => 100]
+];
